@@ -1,0 +1,16 @@
+nome_modulo,tipo_modulo,latencia_observada_ms,latencia_prevista_ms,tensao_v,corrente_a,status_operacional,nivel_prioridade,codigo_sensor_hex,mensagem_alerta,ciclo_registro
+MOD-COMM-01,Comunicação,145.2,140.0,24.0,2.5,Ativo,3,0x1F3A,Sinal dentro da margem de latência esperada,101
+MOD-COMM-02,Comunicação,320.8,210.0,24.0,4.2,Alerta,1,0x2A1B,Alta latência detectada no enlace orbital principal,101
+MOD-HAB-01,Habitação,45.1,44.8,12.0,1.2,Ativo,5,0x0B12,Operação nominal dos sensores de ambiente,101
+MOD-HAB-02,Habitação,88.4,50.0,12.0,2.1,Alerta,2,0x0C44,Oscilação na rede de comunicação interna,101
+MOD-AGRI-01,Agricultura,112.5,110.0,48.0,3.0,Ativo,4,0x3D88,Telemetria da irrigação automatizada sincronizada,101
+MOD-AGRI-02,Agricultura,210.0,115.0,48.0,5.5,Manutenção,1,0x3E99,Perda sistemática de pacotes na estufa,101
+MOD-LAB-01,Laboratório,95.3,92.0,24.0,1.8,Ativo,4,0x4F01,Transmissão de dados biológicos concluída,101
+MOD-LAB-02,Laboratório,410.6,180.0,24.0,5.0,Alerta,1,0x4F88,Sobrecarga no canal de espectrometria,101
+MOD-MED-01,Suporte Médico,35.0,34.5,12.0,0.9,Ativo,5,0x5A10,Sinais vitais transmitidos com precisão,101
+MOD-DATA-01,Armazenamento,520.1,200.0,48.0,6.0,Alerta,1,0x6C99,Gargalo na sincronização de backup interestelar,101
+MOD-COMM-03,Comunicação,155.0,152.0,24.0,2.6,Ativo,4,0x1F3B,Enlace secundário pronto para operatividade,102
+MOD-HAB-03,Habitação,48.2,47.0,12.0,1.1,Ativo,5,0x0B13,Consumo elétrico e latência estáveis,102
+MOD-AGRI-03,Agricultura,118.0,112.0,48.0,3.1,Ativo,4,0x3D89,Sensores de umidade do solo operando em rede,102
+MOD-LAB-03,Laboratório,280.4,190.0,24.0,3.8,Alerta,2,0x4F02,Atraso no envio de resultados de amostras,102
+MOD-DATA-02,Armazenamento,180.0,175.0,48.0,3.2,Ativo,3,0x6C10,Integridade dos arquivos de log confirmada,102
